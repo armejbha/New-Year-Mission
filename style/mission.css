@@ -1,0 +1,171 @@
+/* universal style  */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* common style  */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.btn-primary{
+    border:none;
+    background-color: white;
+    color:#005FAC;
+    padding:10px 26px;
+    font-size:16px;
+    border-radius: 5px;
+    font-weight:800;
+}
+.primary-color{
+ color:white;
+}
+
+/* header section style  */
+.header-section{
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.banner{
+    text-align:right;
+    padding-right:230px;
+}
+.banner-title{
+    font-size:48px;
+}
+.banner-details{
+    width: 525px;
+    font-weight:300;
+    margin:24px 0px 32px 0px;
+}
+
+/* failures section style  */
+.failures{
+    /* width: 1072px;    */
+    display: flex;
+    gap:87px;
+    justify-content:center;
+    align-items:center;
+    margin:130px 0;   
+    padding:0px 264px;
+}
+
+.mistake{
+    padding-top:100px;
+}
+.mistake-title{
+    font-size:30px;
+    font-weight: 800;
+}
+
+.mistake-details{
+    margin:24px 0px 16px 0px;
+    color:#444343;
+    text-align: justify;
+}
+
+.mistake-point li{
+    list-style-type:none;
+    line-height: 30px;
+}
+
+/* plan section style  */
+.plan-section,
+.contact{
+    padding:0px 230px;
+}
+.plan-section .section-title{
+    text-align: center;
+    font-size:30px;
+    font-weight:800;
+    margin-bottom:50px;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan{
+    text-align: center;
+}
+.plan img{
+    width: 90px;
+}
+
+.plan-title{
+    margin:24px 0px 16px 0px;
+    font-weight: 800;
+}
+.plan p{
+    color:#444343;
+    font-weight: 500;
+}
+
+/* contact section  */
+.contact{
+    margin:130px 0px;
+}
+
+.contact-banner{
+    background: linear-gradient(to right,rgba(0, 95, 172, 0.959),rgba(0, 95, 172, 0)),url("../images/watch.png");
+    padding:60px 64px;
+    border-radius: 5px;
+}
+
+.contact-title{
+    color:white;
+    font-size:30px;
+    margin-bottom:24px;
+}
+
+.footer-section{
+    background-color:#151414;
+    padding:130px 230px;
+    display: flex;
+    gap:330px;
+}
+.future-title{
+    color:white;
+    font-size:30px;
+}
+.footer-column p{
+    margin:18px 0px;
+    color:white;
+    font-weight: 300;
+}
+.future-details{
+    width: 485px;
+    line-height:25px;
+}
+.social-icon img{
+    margin-right:10px;
+}
+
+.subscribe{
+    color:white;
+}
+
+input{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+    padding:10px;
+    margin:31px 0px 16px 0px;
+    background-color: transparent;
+    color:white
+}
+
+
+.fa-check{
+    color:#16D887;
+    margin-right:5px;
+}
